@@ -6,7 +6,6 @@
 
 int main() 
 {
-    long ret = syscall(245);  // Номер вашего syscall
-    printf("CSR_TIME: %ld\n", ret);
+    syscall(245);
     return 0;
 }
